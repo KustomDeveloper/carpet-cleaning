@@ -73,10 +73,11 @@ img {
     margin-bottom: 0;
     padding: 15px;
 }
-.top-bar-phone span {
+.top-bar-phone a {
     color: #ff8400;
     font-size: 28px;
     font-weight: 700;
+    text-decoration: none;
 }
 .top-bar-phone img {
     width: 35px;
@@ -95,6 +96,18 @@ img {
 .review-proof  span {
     font-size:24px;
 }
+.slogan-bar {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #000;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+}
+.slogan-bar p {
+    margin: 0;
+}
 
 /*Header*/
 .head-wrapper {
@@ -105,12 +118,15 @@ img {
 }
 
 /*Logo*/
+.logo-row {
+    height: 80px;
+}
 .logo-container {
     position:relative;
     top: 15px;
 }
 .logo-container img {
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 
 /*Top Navigation Menu*/

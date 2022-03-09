@@ -28,14 +28,14 @@
                 <p class="top-bar-phone">
                     <img src="<?php bloginfo("stylesheet_directory"); ?>/img/top-bar-phone-icon.png" />
                     Get a FREE Quote Today! <br/>
-                    <span>555.567.8910</span>
+                    <a href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><?php echo get_theme_mod('bus_info_phone'); ?></a>
 
                 </p>
             </div>
-            <div class="row flex-container">
+            <div class="row flex-container logo-row">
                 <div class="logo-container">
                     <a href="<?php bloginfo('url'); ?>">
-                        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/kitchen-remodeling-logo.png" />
+                        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/carpet-logo.png" />
                     </a>
                 </div><!-- .logo-container -->
 
@@ -48,6 +48,11 @@
                     <?php wp_nav_menu(array( 'theme_location' => 'main_menu' )); ?>
                 </div><!--.main-nav-->
 
+            </div><!--.row-->
+            <div class="row flex-container">
+            <div class="slogan-bar">
+                <p>We Help Connect you to the Best Carpet Cleaning Companies in the Area</p>
+            </div>
             </div><!--.row-->
         </div><!--.container-fluid-->
     </div><!--.head-wrapper-->
