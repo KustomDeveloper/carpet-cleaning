@@ -1,10 +1,10 @@
-# Kitchen Remodeling Theme
+# Carpet Cleaning Theme
 
-The Kitchen Remodeling Theme is a custom theme created for Kitchen Remodeling Businesses. 
+The Carpet Cleaning Theme is a custom theme created for Carpet Cleaning Businesses. 
 
   - Bootstrap 4
   - Magnific Popup Photo Gallery
-  - FontAwesome 5.9
+  - FontAwesome 4.7
   - Multiple Sidebars
   - Gutenberg Disabled by default
   - Thumbnail Support

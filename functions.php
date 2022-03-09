@@ -7,6 +7,7 @@ function jsa_theme_scripts() {
     wp_enqueue_style( 'magnific-css', get_template_directory_uri() . '/css/magnific-popup.min.css' );
     wp_enqueue_style( 'googlefonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+    wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
     wp_enqueue_style( 'style', get_stylesheet_uri() );
 
     wp_enqueue_script('jquery'); 

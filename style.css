@@ -54,6 +54,48 @@ img {
     max-width:100%;
 }
 
+/*Top Bar*/
+.topbar .fa-star {
+    color: #E2A311;
+    font-size:13px;
+}
+.topbar {
+    display: flex;
+    background: #000;
+}
+.top-bar-phone {
+    margin-left: auto;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding: 15px;
+}
+.top-bar-phone span {
+    color: #ff8400;
+    font-size: 28px;
+    font-weight: 700;
+}
+.top-bar-phone img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -30px;
+    top: 23px;
+}
+.review-proof {
+    color:#fff;
+    line-height: 1.3;
+    font-size: 15px;
+    padding: 15px;
+    margin: 0;
+}
+.review-proof  span {
+    font-size:24px;
+}
+
 /*Header*/
 .head-wrapper {
     background:#fff;
