@@ -13,7 +13,7 @@
 <div class="sb-xtra sb-recent-posts">
     <h2>Recent Posts</h2>
     <ul>
-        <?php $recent_posts_query = new WP_Query(array('posts_per_page' => 5));
+        <?php $recent_posts_query = new WP_Query('posts_per_page=5');
         while($recent_posts_query->have_posts()) : $recent_posts_query->the_post(); ?>
             <li><a class="wp-recent-post" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
         <?php endwhile; ?>
